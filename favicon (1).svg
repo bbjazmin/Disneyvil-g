@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a3aa8"/>
+      <stop offset="50%" style="stop-color:#c2185b"/>
+      <stop offset="100%" style="stop-color:#ffd700"/>
+    </linearGradient>
+    <linearGradient id="castle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#ffe5f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Háttér körlap -->
+  <circle cx="32" cy="32" r="30" fill="url(#bg)"/>
+
+  <!-- Csillagok dekoráció -->
+  <circle cx="14" cy="14" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="50" cy="12" r="1.2" fill="#fff" opacity="0.8"/>
+  <circle cx="52" cy="22" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="12" cy="32" r="1" fill="#fff" opacity="0.7"/>
+  <circle cx="16" cy="48" r="1.2" fill="#fff" opacity="0.8"/>
+
+  <!-- Hold -->
+  <circle cx="48" cy="20" r="4" fill="#fff8d8" opacity="0.9"/>
+  <circle cx="46" cy="18" r="3.5" fill="url(#bg)" opacity="0.5"/>
+
+  <!-- Kastély középső torony -->
+  <rect x="26" y="22" width="12" height="28" fill="url(#castle)"/>
+  <rect x="24" y="20" width="16" height="4" fill="url(#castle)"/>
+
+  <!-- Kastély bal torony -->
+  <rect x="14" y="32" width="10" height="18" fill="url(#castle)"/>
+  <rect x="12" y="28" width="14" height="4" fill="url(#castle)"/>
+  <rect x="17" y="24" width="4" height="6" fill="url(#castle)"/>
+  <polygon points="13,24 19,16 25,24" fill="url(#castle)"/>
+
+  <!-- Kastély jobb torony -->
+  <rect x="40" y="32" width="10" height="18" fill="url(#castle)"/>
+  <rect x="38" y="28" width="14" height="4" fill="url(#castle)"/>
+  <rect x="43" y="24" width="4" height="6" fill="url(#castle)"/>
+  <polygon points="39,24 45,16 51,24" fill="url(#castle)"/>
+
+  <!-- Középső torony csúcs -->
+  <rect x="29" y="16" width="6" height="6" fill="url(#castle)"/>
+  <polygon points="26,16 32,8 38,16" fill="url(#castle)"/>
+
+  <!-- Zászlók a tornyokon -->
+  <line x1="32" y1="8" x2="32" y2="4" stroke="#ffd700" stroke-width="1"/>
+  <polygon points="32,4 38,5 36,7 38,9 32,8" fill="#ffd700"/>
+
+  <line x1="19" y1="16" x2="19" y2="12" stroke="#ffd700" stroke-width="0.8"/>
+  <polygon points="19,12 23,13 22,14 23,15 19,15" fill="#ffd700"/>
+
+  <line x1="45" y1="16" x2="45" y2="12" stroke="#ffd700" stroke-width="0.8"/>
+  <polygon points="45,12 49,13 48,14 49,15 45,15" fill="#ffd700"/>
+
+  <!-- Kapu -->
+  <path d="M 28,50 Q 32,42 36,50 Z" fill="#4c1d95"/>
+
+  <!-- Ablakok -->
+  <rect x="30" y="28" width="4" height="6" fill="#ffd700" rx="2"/>
+  <rect x="17" y="38" width="4" height="5" fill="#ffd700" rx="2"/>
+  <rect x="43" y="38" width="4" height="5" fill="#ffd700" rx="2"/>
+
+  <!-- Víz/föld a kastély előtt -->
+  <rect x="2" y="50" width="60" height="12" fill="#4c1d95" opacity="0.6"/>
+  <path d="M 2,50 Q 16,46 32,50 T 62,50" stroke="#ffd700" stroke-width="1.5" fill="none" opacity="0.7"/>
+</svg>
